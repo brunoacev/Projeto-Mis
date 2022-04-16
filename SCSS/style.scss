@@ -291,8 +291,8 @@ main {
     box-shadow: 4px 4px 2px rgb(206, 187, 187) ;
     
     img {
-        width: 50px;
-        height: 50px;
+        width: 80px;
+        height: 80px;
         background-color: red;
         border-radius: 50%;
         margin: 30px 0;
@@ -300,7 +300,7 @@ main {
 
     .user-info {
         margin: 15px 0;
-        line-height: 23px;
+        line-height: 22px;
 
         .info {
             color: #000000;
@@ -319,3 +319,257 @@ main {
         
     }
 }
+
+// DASHBOARD ------------------------------------ //
+
+.main-dashboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 74vh;
+
+    .first_box {
+        display: flex;
+        flex-direction: column;
+        
+        .box_item {
+            width: 400px;
+            height: 200px;
+            margin: 2px 0;
+            background-color: #DEDEDE;
+            border-radius: 10px;
+            display: flex;
+            
+
+            .info_left {
+                padding: 5px 10px;
+                
+
+                h1 {
+                    font-size: 20px;
+                    padding: 2px 0;
+                    width: 200px;
+                    
+                }
+                span {
+                    font-size: 50px;
+                    font-weight: bold;
+                    padding: 2px 0;
+                }
+                p {
+                    font-size: 12px;
+                    padding: 2px 0;
+                    color: #5f5f5f;
+                }
+
+            }
+            .info_right {
+                padding: 5px 10px;
+
+                img {
+                    width: 150px;
+                    height: 80px;
+                }
+                p {
+                    font-size: 12px;
+                    color: #5f5f5f;
+                }
+            }
+        }
+
+        .box_item2 {
+
+            width: 400px;
+            height: 200px;
+            margin: 2px 0;
+            background-color: #DEDEDE;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+
+            .info_top {
+                padding: 5px 10px;
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+
+
+                h1 {
+                    font-size: 25px;
+                    padding: 2px 0;
+                }
+                img {
+                    width: 100px;
+                    height: 100px;
+                    position: absolute;
+                    top: 160px;
+                    left: 360px;
+
+                }
+            }
+            .info_bottom {
+                padding: 5px 10px;
+                display: flex;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 20px;
+                    line-height: 30px;   
+                }
+                ul:first-child {
+                    color: rgb(120, 120, 129);
+                }
+                ul:last-child {
+                    color: rgb(148, 72, 10);
+                }
+
+            }
+        }
+
+        .box_item3 {
+            width: 400px;
+            height: 200px;
+            margin: 2px 0;
+            background-color: #DEDEDE;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: row;
+
+            .info_left {
+                margin: 20px 20px;
+                img {
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+
+            .info_right {
+                margin: 20px 20px;
+                display: flex;
+                flex-wrap: wrap;
+                
+                h1 {
+                    font-size: 18px;
+                }
+               ul li {
+                   margin: 0 20px;
+                   line-height: 20px;
+                   list-style-type: disc;
+                   cursor: pointer;
+               }
+               ul li:hover {
+                   text-decoration: underline;
+               }
+            }
+        }
+    }
+     
+    .second_box {
+        display: flex;
+        flex-direction: column;
+        
+
+        .box_item {
+            width: 130px;
+            height: 155px;
+            background-color: #DEDEDE;
+            
+            margin: 5px 15px;
+            border-radius: 5%;
+            padding: 5px 5px;
+            text-align: center;
+
+            h1 {
+                font-size: 12px;
+                font-weight: bold;
+            }
+            span {
+                font-size: 40px;
+                font-weight: bold;
+            }
+            p {
+                font-size: 12px;
+                margin: 5px 0;
+                color: rgb(120, 120, 129);
+                text-decoration: underline;
+            }
+            img {
+                width: 80px;
+            }
+        }
+
+    }
+
+    .third_box {
+        display: flex;
+        flex-direction: column;
+        background-color: #DEDEDE;
+        padding: 10px 20px;
+        border-radius: 10px;
+
+        .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            h1 {
+                font-size: 25px;
+            }
+
+            ion-icon {
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+
+        .box_item {
+            display: flex;
+            width: 300px;
+            height: 485px;
+            
+            margin: 5px 15px;
+            border-radius: 5%;
+            padding: 15px 0;
+
+            align-items: center;
+            text-align: center;
+
+            img {
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                margin: 0 10px;
+            }
+            ul {
+                display: flex;
+                flex-direction: column;
+
+            .color_gray {
+                color: rgb(120, 120, 129);
+                margin: 0 15px;
+            }
+
+                ul {
+                    display: flex;
+                    flex-direction: row;
+
+                    li {
+                        margin: 0 8px;
+                        
+                       
+                        
+                    }
+                }
+            }
+
+
+
+        
+        }
+    }
+}
+
+
+// Produtos e Bonificações ---------------- /// 
+

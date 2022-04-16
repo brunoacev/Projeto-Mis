@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto MIS</title>
+
+    <!-- Links CSS -->
+    <link rel="stylesheet" href="/SCSS/reset.css">
+    <link rel="stylesheet" href="/SCSS/style.css">
+
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h3>Dashboard</h3>
+            <p>Dados e Metas da Operação</p>
+        </div>
+        
+        <select name="teste" id="teste">
+            <option value="padrao" selected>Operações</option>
+            <option value="operacao">Operações</option>
+            <option value="Dashboard">Dashboard</option>
+            <option value="Colaboradores">Colaboradores</option>
+            <option value="ProdutoEBonificações">Produtos e Bonificações</option>
+        </select>
+    </header>
+
+    <nav class="nav-main">
+        <div class="logo">
+            <img src="/components/img/Vector.svg" alt="Logo">
+        </div>
+        <div class="menu">
+            <ul class="line">
+                <li><ion-icon name="grid-outline"></ion-icon><a href="#">Dashboard</a></li>
+                <li><ion-icon name="people-outline"></ion-icon><a href="#">Colaboradores</a></li>
+                <li><ion-icon name="documents-outline"></ion-icon><a href="#">Operações</a></li>
+                <li><ion-icon name="bag-check-outline"></ion-icon><a href="#">Produtos</a></li>
+            </ul>
+            <ul class="other-line">
+                <li><ion-icon name="flash-outline"></ion-icon><a href="#">Metas</a></li>
+                <li><ion-icon name="water-outline"></ion-icon><a href="#">Hábitos</a></li>
+                <li><ion-icon name="git-branch-outline"></ion-icon><a href="#">Treinamento</a></li>
+            </ul>
+            <button><ion-icon name="exit-outline"></ion-icon><a href="#">Deslogar</a></button>
+        </div>
+    </nav>
+
+    <main>
+        <div class="main-dashboard">
+
+            <div class="first_box">
+                <div class="box_item">
+                    <div class="info_left">
+                        <h1>Nivél de Qualidade</h1>
+                        <span>97%</span>
+                        <p>
+                            Acima de média
+                        </p>
+                    </div>
+                    <div class="info_right">
+                        <img src="/components/img/Group 24.svg" alt="">
+                        <p>
+                            Parabéns seu nivel de qualidade está exelente.
+                        </p>
+                    </div>
+                </div>
+                <div class="box_item2">
+                    <div class="info_top">
+                        <h1>Meireles & Freitas</h1>
+                        <img src="/components/img/Mask group.svg" alt="logo">
+                    </div>
+                    <div class="info_bottom">
+                        <ul>
+                            <li>Colaboradores ativos:</li>
+                            <li>Metas batidas:</li>
+                            <li>Bonificações resgatadas:</li>
+                        </ul>
+                        <ul>
+                            <li>158</li>
+                            <li>25/100</li>
+                            <li>57 mês</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="box_item3">
+                    <div class="info_left">
+                        <img src="/components/img/Chart Pie.svg" alt="">
+                    </div>
+                    <div class="info_right">
+                        <h1>Nivél de salubredade</h1>
+                        <ul>
+                            <li>Recepção</li>
+                            <li>Fala</li>
+                            <li>Saudação</li>
+                            <li>Retenção</li>
+                        </ul>
+                        <ul>
+                            <li>MCV</li>
+                            <li>MCH</li>
+                            <li>MCHC</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="second_box">
+                <div class="box_item">
+                    <h1>Silêncio nas ligações</h1>
+                    <span>10%</span>
+                    <p>Dentro da média</p>
+                    <p>Ganho 25%</p>
+                    <img src="/components/img/Group 24.svg" alt="">
+
+                </div>
+                <div class="box_item">
+                    <h1>TMA</h1>
+                    <span>6min</span>
+                    <p>Abaixo da média</p>
+                    <p>Perda de 13%</p>
+                    <img src="/components/img/Group 24.svg" alt="">
+
+                </div>
+                <div class="box_item">
+                    <h1>APA</h1>
+                    <span>10min</span>
+                    <p>Abaixo da média</p>
+                    <p>Perda de 13%</p>
+                    <img src="/components/img/Group 24.svg" alt="">
+
+                </div>
+            </div>
+            <div class="third_box">
+                
+                <div class="info">
+                    <h1>Destaques do mês</h1>
+                    <ion-icon name="filter-outline"></ion-icon>
+                </div>
+
+                <div class="box_item">
+                    <img src="/components/img/cled1.jpg" alt="">
+                    <ul>
+                        <ul>
+                            <li>Hbt</li>
+                            <li>tma</li>
+                            <li>mde</li>
+                            <li>sor</li>
+                        </ul>
+                        <ul class="color_gray">
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <img src="/components/img/cled1.jpg" alt="">
+                    <ul>
+                        <ul>
+                            <li>Hbt</li>
+                            <li>tma</li>
+                            <li>mde</li>
+                            <li>sor</li>
+                        </ul>
+                        <ul class="color_gray">
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <img src="/components/img/cled1.jpg" alt="">
+                    <ul>
+                        <ul>
+                            <li>Hbt</li>
+                            <li>tma</li>
+                            <li>mde</li>
+                            <li>sor</li>
+                        </ul>
+                        <ul class="color_gray">
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                        </ul>
+                    </ul>
+                </div>
+                <div class="box_item">
+                    <img src="/components/img/cled1.jpg" alt="">
+                    <ul>
+                        <ul>
+                            <li>Hbt</li>
+                            <li>tma</li>
+                            <li>mde</li>
+                            <li>sor</li>
+                        </ul>
+                        <ul class="color_gray">
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                            <li>54</li>
+                        </ul>
+                    </ul>
+                </div>
+                
+
+            </div>
+        </div>
+        
+    </main>
+
+
+    <!-- Material Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
