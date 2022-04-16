@@ -196,4 +196,125 @@ main .container form #fbtn {
 main .container form #fbtn:hover {
   background-color: #5f5f5f;
 }
+
+.container_colab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container_colab .info-section ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
+}
+
+.container_colab .info-section ul li {
+  margin: 20px 46px;
+}
+
+.container_colab .info-content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 20px;
+  line-height: 30px;
+}
+
+.container_colab .info-content ul li {
+  margin: 0 10px;
+  text-decoration: underline;
+}
+
+.container_colab .info-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container_colab .info-search input {
+  width: 350px;
+  height: 30px;
+  margin: 3px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  background-color: #e6e8ee;
+  padding: 10px;
+  -webkit-box-shadow: 2px 2px 2px #cebbbb;
+          box-shadow: 2px 2px 2px #cebbbb;
+}
+
+.container_colab .button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 10px;
+}
+
+.container_colab .button button {
+  height: 28px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #DEDEDE;
+  color: #000000;
+  border-radius: 5px;
+  margin: 0 5px;
+}
+
+.user {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  background-color: #DEDEDE;
+  width: 300px;
+  height: 480px;
+  border-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: 4px 4px 2px #cebbbb;
+          box-shadow: 4px 4px 2px #cebbbb;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  margin: 30px 0;
+}
+
+.user .user-info {
+  margin: 15px 0;
+  line-height: 23px;
+}
+
+.user .user-info .info {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.user .user-info .box {
+  background-color: #FFFFFF;
+  padding: 0 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 500;
+}
 /*# sourceMappingURL=style.css.map */

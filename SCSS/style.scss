@@ -14,10 +14,9 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    
-    background-color: var(--bg-color);
-    
+    background-color: var(--bg-color); 
 }
+
 
 header {
 
@@ -161,6 +160,8 @@ nav {
     }
 }
 
+// Conteudo da Container de Operações --------------------- // 
+
 main {
     position: absolute;
     left: 220px;
@@ -200,5 +201,121 @@ main {
             }
             
         }
+    }
+}
+
+// ---------------------------------------------------- // 
+
+// Style tela Colaborador
+
+.container_colab {
+    display: flex;
+    flex-direction: column;
+    
+    .info-section ul {
+        display: flex;
+        margin: 0 20px;
+
+        li {
+            margin: 20px 46px;
+            
+        }
+    }
+
+    .info-content ul {
+        display: flex;
+        margin: 0 20px;
+        line-height: 30px;
+
+        li {
+            margin: 0 10px;
+            text-decoration: underline;
+        }
+    }
+    
+    .info-search {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        align-items: center;
+
+        input {
+            width: 350px;
+            height: 30px;
+            margin: 3px;
+            height: 25px;
+            border-radius: 10px;
+            border: none;
+            background-color: #e6e8ee;
+            padding: 10px;
+           box-shadow: 2px 2px 2px rgb(206, 187, 187) ;
+        }
+    }
+
+    .button {
+        display: flex;
+        margin: 0 10px;
+        
+        
+        button{
+            
+            height: 28px;
+            width: 100px;
+           
+            border: none;
+            cursor: pointer;
+            align-items: center;
+
+            background-color: #DEDEDE;
+            color: #000000;
+            border-radius: 5px;
+            margin: 0 5px;
+            
+            
+        }
+        
+    }
+
+    
+}
+
+.user {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    background-color: #DEDEDE;
+    width: 300px;
+    height: 480px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 2px rgb(206, 187, 187) ;
+    
+    img {
+        width: 50px;
+        height: 50px;
+        background-color: red;
+        border-radius: 50%;
+        margin: 30px 0;
+    }
+
+    .user-info {
+        margin: 15px 0;
+        line-height: 23px;
+
+        .info {
+            color: #000000;
+            font-size: 12px;
+            font-weight: bold;
+
+        }
+
+        .box {
+            background-color: #FFFFFF;
+            padding: 0 10px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        
     }
 }
