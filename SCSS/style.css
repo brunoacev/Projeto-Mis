@@ -624,4 +624,72 @@ main .container form #fbtn:hover {
 .main-dashboard .third_box .box_item ul ul li {
   margin: 0 8px;
 }
+
+.produtos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 75vh;
+}
+
+.produtos .prodSaude {
+  margin: 30px;
+  cursor: pointer;
+}
+
+.produtos .prodSaude h1 {
+  padding: 10px 0;
+}
+
+.produtos .prodSaude ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.produtos .prodSaude ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  line-height: 30px;
+  margin: 0 10px;
+  width: 400px;
+  height: 150px;
+  background-color: #DEDEDE;
+  text-align: center;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 2px #cebbbb;
+          box-shadow: 4px 4px 2px #cebbbb;
+}
+
+.produtos .prodSaude ul li img {
+  width: 70px;
+  position: absolute;
+  margin: 90px;
+}
+
+.produtos .prodSaude ul li span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.produtos .prodSaude ul li p {
+  font-size: 12px;
+  color: #636368;
+}
 /*# sourceMappingURL=style.css.map */
